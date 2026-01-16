@@ -131,14 +131,14 @@
             <label>Monthly Processing Volume</label>
             <div class="input-wrapper">
                 <span class="input-prefix">£</span>
-                <input type="number" id="monthlyVol" value="50000" step="1000">
+                <input type="number" id="monthlyVol" value="100000" step="1000">
             </div>
         </div>
         <div class="input-group">
             <label>Avg Ticket Size</label>
             <div class="input-wrapper">
                 <span class="input-prefix">£</span>
-                <input type="number" id="ticketSize" value="45">
+                <input type="number" id="ticketSize" value="75">
             </div>
         </div>
 
@@ -167,7 +167,7 @@
                 <div class="input-group">
                     <label>Markup %</label>
                     <div class="input-wrapper">
-                        <input type="number" id="curMarkup" value="0.65" step="0.01" style="padding-left:10px; border-color:#cbd5e1;">
+                        <input type="number" id="curMarkup" value="0.85" step="0.01" style="padding-left:10px; border-color:#cbd5e1;">
                         <span class="input-suffix">%</span>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                     <label>Gateway (p)</label>
                     <div class="input-wrapper">
                         <span class="input-prefix">£</span>
-                        <input type="number" id="curGateway" value="0.10" step="0.01">
+                        <input type="number" id="curGateway" value="0.15" step="0.01">
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                 <div class="input-group">
                     <label>Markup %</label>
                     <div class="input-wrapper">
-                        <input type="number" id="newMarkup" value="0.40" step="0.01" style="padding-left:10px; border-color:var(--success-color);">
+                        <input type="number" id="newMarkup" value="0.50" step="0.01" style="padding-left:10px; border-color:var(--success-color);">
                         <span class="input-suffix">%</span>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                     <label>Gateway (p)</label>
                     <div class="input-wrapper">
                         <span class="input-prefix">£</span>
-                        <input type="number" id="newGateway" value="0.05" step="0.01">
+                        <input type="number" id="newGateway" value="0.10" step="0.01">
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
             <div class="input-group">
                 <label>Target Fail Rate %</label>
                 <div class="input-wrapper">
-                    <input type="number" id="targetFailRate" value="5.0" step="0.5" style="padding-left:10px">
+                    <input type="number" id="targetFailRate" value="6.0" step="0.5" style="padding-left:10px">
                     <span class="input-suffix">%</span>
                 </div>
             </div>
